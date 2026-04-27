@@ -6,7 +6,7 @@ public class StringUtils {
         // Empty constructor to satisfy checkstyle
     }
 
-    public static String reverseString(String str) {
+    public static String reverseString(final String str) {
         return new StringBuilder(str).reverse().toString();
     }
 }
